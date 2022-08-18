@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 header{
     padding-top: 22px;
@@ -26,6 +27,7 @@ header nav ul{
     background-color: #ECE7E4;
     height: 100vh;
     position: relative;
+    justify-content: space-between;
 }
 .main_banner article{
     max-width: 509px;
@@ -47,7 +49,6 @@ header nav ul li{
 header nav ul li:hover{
     transform: rotate(360deg);
 }
-
 header nav ul li:last-of-type{
     margin: 0;
 }
@@ -65,11 +66,11 @@ header nav ul li:last-of-type a{
     letter-spacing: 0.4px;
     color: #FFFFFF;">Get template}
 }
-section div{
+.main_banner_div{
     max-width: 1200px;
     margin: auto;
 }
-.section1_p1{
+.main_banner_p1{
     font-family: 'Poppins';
     margin-bottom: 20px;
     font-style: normal;
@@ -80,7 +81,7 @@ section div{
     text-transform: uppercase;
     color: #645C55;"
 }
-.section1_h1{
+.main_banner_h1{
     font-family: 'Poppins';
     margin-bottom: 18px;
     font-style: normal;
@@ -89,7 +90,7 @@ section div{
     line-height: 70px;
     color: #1B1A1A;
 }
-.section1_p2{
+.main_banner_p2{
     font-family: 'Poppins';
     margin-bottom: 41px;
     font-style: normal;
@@ -98,7 +99,7 @@ section div{
     line-height: 24px;
     color: #403E3B;"
 }
-.section1_a{
+.main_banner_a{
     text-decoration: none;
     margin-left: 25px;
     font-family: 'Poppins';
@@ -109,7 +110,7 @@ section div{
     letter-spacing: 0.4px;
     color: #1B1A1A;"
 }
-.section1_img{
+.main_banner_img{
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -118,13 +119,143 @@ section div{
     width: 50%;
     height: 100vh;
 }
-.section2{
+.our_firm{
     padding-top: 96px;
     padding-bottom: 128px;
 }
-.section2_div{
+.our_firm_div{
     margin: auto;
     max-width: 768px;
     display: flex;
     justify-content: space-between;
+}
+.our_firm_h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+}
+.our_firm_list{
+    max-width: 502px;
+}
+.our_firm_p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    margin-bottom: 10px
+}
+.stephen{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    position: absolute;
+    padding-top: 8px;
+}
+.stephen_list{
+    padding-left: 50px;
+}
+.stephen_p1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #1B1A1A;
+}
+.stephen_p2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
+.our_process{
+    padding-top: 100px;
+    padding-bottom: 110px;
+    justify-content: space-between;
+}
+.our_process_p_and_h2{
+    margin: auto;
+    max-width: 1200px;
+}
+.our_process_p_and_h2 p{
+    text-align: center; margin-bottom: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;"
+}
+.our_process_p_and_h2 h2{
+    text-align: center; margin-bottom: 47px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+}
+.our_process_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our_process_div1{
+    text-align: center;
+    max-width: 350px;
+    align-items: center
+}
+.our_process_div1 h3{
+    font-family: 'Poppins';
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #403E3B;
+}
+.our_process_div1 h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+}
+.our_process_div23{
+    text-align: center;
+    max-width: 350px;
+    align-items: center
+}
+.our_process_div23 h3{
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #403E3B;
+}
+.our_process_div23 h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
 }
