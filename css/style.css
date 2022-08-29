@@ -151,13 +151,12 @@ header nav ul li:last-of-type a{
 }
 .stephen{
     display: flex;
-    justify-content: space-between;
     max-width: 500px;
-    position: absolute;
     padding-top: 8px;
+    align-items: center;
 }
 .stephen_list{
-    padding-left: 50px;
+    padding-left: 30px;
 }
 .stephen_p1{
     font-family: 'Poppins';
@@ -175,6 +174,37 @@ header nav ul li:last-of-type a{
     line-height: 14px;
     color: #645C55;
 }
+.house{
+    background-image: url("../images/house.jpg");
+    min-height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.house .sub_container{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.house .sub_container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.house .sub_container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+
 .our_process{
     padding-top: 100px;
     padding-bottom: 110px;
@@ -207,7 +237,6 @@ header nav ul li:last-of-type a{
 .our_process_list{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .our_process_div1{
     text-align: center;
@@ -259,4 +288,114 @@ header nav ul li:last-of-type a{
     text-align: center;
     color: #645C55;
 }
+.marble{
+    background-image: url("../images/marble.jpg");
+    min-height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.marble .sub_container{
+    max-width: 286px;
+    margin-right: 75px;
+}
+.marble .sub_container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.marble .sub_container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
+.clients{
+    background: #403E3B;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.clients .container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clients .happy{
+    max-width: 460px;
 
+}
+.clients .happy h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ECE7E4;
+}
+.clients .happy h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+.clients .happy p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ECE7E4;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 380px;
+    justify-content: space-around;
+    align-items: center;
+}
+.img_padding{
+    padding-bottom: 96px
+}
+.swirling{
+    background-image: url("../images/swirling.jpg");
+    min-height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.swirling .sub_container{
+    max-width: 285px;
+    margin-left: 60px;
+}
+.swirling .sub_container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.swirling .sub_container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+}
